@@ -8,7 +8,9 @@ public class StringCalculatorTest {
 
     @Test
     public void renameThis() {
-        assertEquals(0, 1);
+        int expected = 0;
+        int actual = 1;
+        assertEquals(expected, actual);
     }
 
 }
